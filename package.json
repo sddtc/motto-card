@@ -1,0 +1,40 @@
+{
+  "name": "placeholder",
+  "version": "0.0.0",
+  "description": "based on React",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "lintFix": "eslint . --report-unused-disable-directives --max-warnings 0 --fix",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "sddtc",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.16",
+    "@vitejs/plugin-react": "^5.1.2",
+    "@vitest/coverage-v8": "^4.0.15",
+    "daisyui": "^5.0.46",
+    "jsdom": "^27.3.0",
+    "lucide-react": "^0.525.0",
+    "prop-types": "^15.8.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.0",
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.1.12",
+    "vitest": "^4.0.15"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1"
+  }
+}
