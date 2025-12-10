@@ -1,6 +1,6 @@
 {
-  "name": "placeholder",
-  "version": "0.0.0",
+  "name": "motto-card",
+  "version": "0.0.1",
   "description": "based on React",
   "scripts": {
     "dev": "vite dev",

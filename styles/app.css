@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: all;
+    logs: true;
+}
+
+.motto-card-container {
+    @apply flex justify-center items-center min-h-screen;
+}
+
+.motto-card-animation-default {
+    @apply cursor-pointer;
+}
+
+.motto-card-base {
+    @apply card card-xl shadow-sm w-96 h-[32rem];
+    @apply bg-accent/80 text-accent-content;
+}
+
+.motto-card-title {
+    @apply h-[20%] flex items-center justify-center;
+}
+
+.motto-card-content {
+    @apply h-[60%] flex justify-center px-2;
+}
+
+.motto-card-author {
+    @apply h-[10%] flex items-center justify-end;
+}
+
+.motto-card-actions {
+    @apply h-[10%] flex card-actions items-center justify-end;
+}
