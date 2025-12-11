@@ -24,6 +24,7 @@
 
 .motto-card-content {
     @apply h-[60%] flex justify-center px-2;
+    font-family: cursive;
 }
 
 .motto-card-author {
