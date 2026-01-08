@@ -1,5 +1,7 @@
 import { create } from 'zustand'
 
+const BACKEND_API = `${import.meta.env.VITE_BACKEND_API_HOST}/`
+
 export const useContentStore = create((set, get) => ({
   currentMotto: {},
   currentMottoIndex: -1,
@@ -10,7 +12,7 @@ export const useContentStore = create((set, get) => ({
   getContent: async () => {
     set({ isLoading: true })
     try {
-      const res = await fetch('../../public/content.json')
+      const res = await fetch(`${BACKEND_API}content.json`)
       if (!res.ok) throw new Error(`fetch failed: ${res.status} ${res.statusText}`)
 
       const data = await res.json()
