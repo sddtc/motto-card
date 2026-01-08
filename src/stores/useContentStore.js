@@ -10,7 +10,7 @@ export const useContentStore = create((set, get) => ({
   getContent: async () => {
     set({ isLoading: true })
     try {
-      const res = await fetch('../../assets/content.json')
+      const res = await fetch('../../public/content.json')
       if (!res.ok) throw new Error(`fetch failed: ${res.status} ${res.statusText}`)
 
       const data = await res.json()

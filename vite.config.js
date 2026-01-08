@@ -17,5 +17,6 @@ export default defineConfig({
         'src/index.jsx'
       ]
     }
-  }
+  },
+  publicDir: 'public',
 })
