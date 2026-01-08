@@ -1,5 +1,3 @@
-import React from 'react'
-
 const MottoCardContainer = ({ children, className = '' }) => (
     <div className={`motto-card-container ${className}`}>
         <div className="motto-card-animation-default">

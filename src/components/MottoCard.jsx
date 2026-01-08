@@ -1,4 +1,3 @@
-import React from 'react'
 import { ThumbsUp, SkipForward, SkipBack } from 'lucide-react'
 import MottoCardContainer from './MottoCardContainer'
 import Button from './Button'

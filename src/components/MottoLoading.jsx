@@ -1,4 +1,3 @@
-import React from 'react'
 import MottoCardContainer from './MottoCardContainer'
 
 const MottoLoading = () => (

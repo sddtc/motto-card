@@ -4,9 +4,14 @@
     themes: all;
     logs: true;
 }
+.base-container {
+    /* layout: single column, two rows (navigator + content) */
+    @apply flex flex-col min-h-screen;
+}
 
 .motto-card-container {
-    @apply flex justify-center items-center min-h-screen;
+    /* second row: take remaining space and center the card */
+    @apply flex justify-center items-center flex-1;
 }
 
 .motto-card-animation-default {

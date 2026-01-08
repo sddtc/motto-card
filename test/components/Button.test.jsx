@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render, fireEvent, screen } from '@testing-library/react'
-import Button from '../src/components/Button'
+import Button from '../../src/components/Button'
 
 describe('Button', () => {
     it('renders a button with provided aria-label and icon', () => {
