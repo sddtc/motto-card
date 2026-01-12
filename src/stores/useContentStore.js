@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 
-const BACKEND_API = `${import.meta.env.VITE_BACKEND_API_HOST}/content.json`
+const BACKEND_API = `${import.meta.env.VITE_BACKEND_API_HOST}`
 
 export const useContentStore = create((set, get) => ({
   currentMotto: {},
