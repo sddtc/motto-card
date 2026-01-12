@@ -16,7 +16,6 @@ export const useContentStore = create((set, get) => ({
       if (!res.ok) throw new Error(`fetch failed: ${res.status} ${res.statusText}`)
 
       const data = await res.json()
-      console.log('fetched content.json:', data)
 
       const currentMottoIndex = Math.floor(Math.random() * data.length)
       set({
