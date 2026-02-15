@@ -5,9 +5,6 @@ on:
       - main
     paths-ignore:
       - 'README.md'
-  pull_request:
-    branches:
-      - main
 
 jobs:
   lint-check-and-test:
