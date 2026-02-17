@@ -17,7 +17,7 @@
     "@tailwindcss/vite": "^4.1.18",
     "@vitejs/plugin-react": "^5.1.2",
     "@vitest/coverage-v8": "^4.0.16",
-    "daisyui": "^5.5.13",
+    "daisyui": "^5.5.18",
     "jsdom": "^28.1.0",
     "lucide-react": "^0.564.0",
     "prop-types": "^15.8.1",
