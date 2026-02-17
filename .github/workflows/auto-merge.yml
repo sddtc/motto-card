@@ -14,4 +14,4 @@ jobs:
     name: Auto Merge Dependabot PRs
     uses: sddtc/shared-actions/.github/workflows/auto-merge-pr.yml@main
     secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PAT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
