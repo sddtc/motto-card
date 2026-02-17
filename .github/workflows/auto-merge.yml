@@ -1,9 +1,7 @@
 name: auto merge dependant bot pr
 
 on:
-  pull_request:
-    branches:
-      - main
+  pull_request_target
 
 permissions:
   contents: read
