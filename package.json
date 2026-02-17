@@ -16,7 +16,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "@vitejs/plugin-react": "^5.1.4",
-    "@vitest/coverage-v8": "^4.0.16",
+    "@vitest/coverage-v8": "^4.0.18",
     "daisyui": "^5.5.18",
     "jsdom": "^28.1.0",
     "lucide-react": "^0.572.0",
